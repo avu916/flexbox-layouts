@@ -1,0 +1,57 @@
+body{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header{
+    order: -1;
+    flex-basis: 100%;
+}
+footer{
+    order: 99999999;
+    flex-basis: 100%;
+}
+
+#navigation{
+    order: 1;
+
+} 
+#nav-articles{
+    flex-direction: row;
+    background-color: antiquewhite;
+    flex-basis: 100%;
+
+    
+}
+main{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+#one{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 48%;
+    margin: 10px;
+
+}
+
+#two{
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 48%;
+} 
+
+article nav{
+    flex-basis: 20%;
+    order: -1;
+}
+
+article h2{
+    flex-basis:100%;
+    
+}
+
